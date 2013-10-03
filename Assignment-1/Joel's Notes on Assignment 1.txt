@@ -1,0 +1,21 @@
+add bricks in the Game() constructor
+
+consts are the best
+use percentages for screen resolutions
+
+isActive bool in the brick class
+	When the ball hits, you set it false, and it doesn't paint
+	
+Have THIS within for(int j = 0; j > rowsOfBricks; j++)
+						{
+							for(int i = 0; i > bricksPerRow; i++)
+							{
+								paint();
+								xPos = xPos + brickLength;
+							}
+							
+							yPos = yPos - brickHeigth;
+						}
+brickHeigth and Legth are consts, made of percentages like the ball
+
+Need to find out how to get the angle the ball hits the paddle, and reverse it properly
